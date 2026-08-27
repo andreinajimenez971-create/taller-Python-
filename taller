@@ -1,0 +1,6 @@
+# primer ejercicio
+nombre = "juan"
+edad = 30
+semestre = 4
+programa_academico = "ingles"
+promedio_academico = 4.5 
