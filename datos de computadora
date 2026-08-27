@@ -1,0 +1,17 @@
+#Datos de un computador
+codigo = str(input("Ingrese el código del equipo: "))
+marca = str(input("Ingrese la marca del equipo: "))
+procesador = str(input("Ingrese el procesador del equipo: "))
+ram = int(input("Ingrese cuanta memoria RAM tiene el equipo: "))
+disco_duro = int(input("Ingrese el almacenamiento del equipo: "))
+sistema_operativo = str(input("Ingrese el sistema operativo del equipo: "))
+estado_de_equipo = str(input("Ingrese el estado en el que se encuentra el equipo: "))
+
+print("Datos Computador")
+print("Código: ", codigo)
+print("Marca: ", marca)
+print("Procesador: ", procesador)
+print("Memoria Ram: ", ram)
+print("Capacidad del disco: ", disco_duro)
+print("Sistema operativo: ", sistema_operativo)
+print("Estado del equipo: ", estado_de_equipo)
