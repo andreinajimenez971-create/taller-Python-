@@ -1,0 +1,21 @@
+#Sistema básico de matrícula universitaria
+codigo =str(input("Ingrese código de estudiante: "))
+nombre_completo =str(input("Ingrese nombre completo: "))
+edad =int(input("Ingrese su edad: "))
+programa =str(input("Ingrese programa en el que está: "))
+semestre =str(input("Ingrese el semestre en el que va: "))
+materias =int(input("Ingrese el número de materias matriculadas: "))
+valor_materia =float(input("Ingrese el valor de cada materia: "))
+
+valor_total = (materias * valor_materia)
+
+print("=======================================\n REGISTRO DE MATRÍCULA\n =======================================")
+print("Código: ", codigo)
+print("Estudiante: ", nombre_completo)
+print("Edad", edad)
+print("Programa: ", programa)
+print("Semestre: ", semestre)
+print("Materias", materias)
+print("Valor por matricula", valor_materia)
+print("Total matricula: ", valor_total)
+print("=======================================")
