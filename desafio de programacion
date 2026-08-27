@@ -1,0 +1,18 @@
+#Mini desafío de programación
+nombre = str(input("Ingrese su nombre: "))
+apellido = str(input("Ingrese su apellido: "))
+edad = int(input("Ingrese su edad: "))
+ciudad = str(input("Ingrese la ciudad en la que reside: "))
+universidad = str(input("Ingrese la universidad a la que asiste: "))
+carrera = str(input("Ingrese la carrera que estudia: "))
+semestre = str(input("Ingrese el semestre en el que va"))
+promedio = float(input("Ingrese el promedio actual que lleva: "))
+
+print("===================== PERFIL DEL ESTUDIANTE =====================")
+print(f"Nombre completo:, {nombre}, {apellido} ")
+print(f"edad:" , {edad})
+print(f"ciudad: " , {ciudad})
+print(f"universidad: " , {universidad})
+print(f"carrera:" , {carrera})
+print(f"semestre:" , {semestre})
+print(f"promedio:" , {promedio})
