@@ -1,0 +1,9 @@
+#IMC
+nombre = str(input("Ingrese su nombre por favor: "))
+peso = float(input("Ingrese su peso en kg por favor: "))
+estatura = float(input("Ingrese su estatura en metros por favor: "))
+
+imc = peso/(estatura ** 2)
+
+print(f"Entonces se tiene que usted {nombre}, pesa {peso} kilogramos y mide {estatura} metros.")
+print("entonces su indice de masa corporal es: ", imc)
