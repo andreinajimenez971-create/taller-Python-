@@ -1,0 +1,10 @@
+# septimo ejercicio
+nombre_del_producto = str(input("ingrese nombre del producto: "))
+precio = float(input("ingrese el precio: "))
+cantidad = int(input("cuantos se va a llevar: "))
+
+total = (precio * cantidad )
+print(f"producto: {nombre_del_producto}")
+print(f"precio: {precio}")
+print(f"cantidad: {cantidad}")
+print(f"total: {total}")
