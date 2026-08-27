@@ -1,0 +1,7 @@
+# sexto ejercicio
+nombre = str(input("ingrese su nombre: "))
+año_nacimiento = int(input("ingrese año de nacimiento: "))
+año_actual = int(input("ingrese año actual: "))
+
+edad = ( año_actual - año_nacimiento)
+print(f"{nombre} aproximadamente tienes {edad} años ")
