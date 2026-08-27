@@ -1,0 +1,14 @@
+#Actividad análisis
+#1. Qué problema presenta el código?
+#R/ no se le asigna variable a la edad, y al no asignarle el int, por el input lo toma como cadena de texto
+#2. Qué tipo de dato devuelve input?
+#R/ cadena de texto ya que no se definió ninguna de las variables
+#3. Cómo se puede corregir?
+#R/ Solamente definiendo la variable "edad" con int es decir entero
+#4. Escriba el código corregido
+
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+nueva_edad = edad + 5
+print(nombre)
+print(nueva_edad)
