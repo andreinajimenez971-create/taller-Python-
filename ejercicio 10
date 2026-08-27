@@ -1,0 +1,7 @@
+# ejercicio 10
+cantidad_dolares = float(input("ingrese la cantidad de dolares: "))
+valor_dolar_colombia = 3090.74
+
+peso = cantidad_dolares * valor_dolar_colombia
+print(f"valor del dolar: {valor_dolar_colombia}")
+print(f"el valor en pesos colombianos es: {peso}")
