@@ -1,0 +1,10 @@
+# retos practicos 1 ejercicio
+nombre_empleado = str(input("ingrese su nombre: "))
+horas_trabajadas = int(input("ingrese horas trabajadas: "))
+valor_hora = float(input("ingrese valor de cada hora: "))
+
+salario = horas_trabajadas * valor_hora
+
+print(f"empleado: {nombre_empleado}")
+print(f"horas trabajadas {horas_trabajadas: }")
+print(f"salario: {salario}")
