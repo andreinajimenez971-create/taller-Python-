@@ -1,0 +1,8 @@
+# quinto ejercicio
+a = 10
+b = 25
+
+a , b = b , a
+
+print(f"el valor de a ahora es {a}")
+print(f"el valor de b ahora es {b}")
