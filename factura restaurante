@@ -1,0 +1,12 @@
+#Factura de restaurante
+nombre_cliente = str(input("Ingrese su nombre: "))
+valor_comida = float(input("Ingrese el costo de la comida: "))
+valor_bebidas = float(input("Ingrese el costo de las bebidas: "))
+
+subtotal = (valor_comida + valor_bebidas)
+propina = (subtotal * 0.10)
+pago_total = (subtotal + propina)
+
+print("El costo de la comida sin propina es: ", subtotal)
+print("añadiendo el valor de la propina serían: ", propina)
+print(f"Entonces se tiene que usted {nombre_cliente} debe pagar : ", pago_total)
